@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    overflow: hidden;
+}
+#titleScreen, #resultsScreen{
+    width: 100%;
+    height: 100%;
+    background-color: burlywood;
+    color: brown;
+    text-align: center;
+}
+#titleContainer{
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+#resultsScreen p{
+    text-align: center;
+    padding-top: 50px;
+}
+#titleContainer h1{
+    font-size: 40px;
+    padding: 50px 0;
+}
+#titleContainer h5{
+    font-size: 20px;
+    margin: 30px 0;
+}
+#titleContainer p{
+    margin: 15px 0;
+}
+#titleContainer button, #resultsScreen button{
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+}
+.mainContainer, #resultsScreen{
+    display: none;
+}
+#resultsScreen p{
+    font-size: 30px;
+}
+#resultsScreen button{
+    display: inline-block;
+}
+.target, .mTarget, .sTarget{
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    
+}
+.target{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.mTarget{
+    width: 80px;
+    height: 80px;
+    background-color: green;
+}
+.sTarget{
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+}
+#target1{
+    left: 300px;
+    top: 1200px;
+}
+
+#target2{
+    left: -200px;
+    top: 43px;
+}
+#target3{
+    left: 1600px;
+    top: 43px;
+}
+#target4{
+    left: -200px;
+    top: 600px;
+}
+#target5{
+    left: -200px;
+    top: -200px;
+}
+#target6{
+    left: 1700px;
+    top: 1200px;
+}
+#target7{
+    left: 1700px;
+    top: 600px;
+}
+#target8{
+    left: -200px;
+    top: 1600px;
+}
+#target9{
+    left: 600px;
+    top: -200px;
+}
+#target10{
+    left: -200px;
+    top: 400px;
+}
+#target11{
+    left: 150px;
+    top: -200px;
+}
+
+#target12{
+    left: -200px;
+    top: 400px;
+}
+#target13{
+    left: 1600px;
+    top: 450px;
+}
+#target14{
+    left: -200px;
+    top: 700px;
+}
+#target15{
+    left: -200px;
+    top: 600px;
+}
+#target16{
+    left: 250px;
+    top: -200px;
+}
+#target17{
+    left: 1700px;
+    top: 600px;
+}
+#target18{
+    left: 800px;
+    top: -100px;
+}
+#target19{
+    left: 600px;
+    top: 1000px;
+}
+#target20{
+    left: -200px;
+    top: 400px;
+}
+.ring2, .ring3, .ring4, .bullseye,
+.mRing2, .mRing3, .mRing4, .mBullseye,
+.sRing2, .sRing3, .sRing4, .sBullseye{
+    display: flex;
+    align-items: center;    
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.ring2, .ring4,
+.mRing2, .mRing4,
+.sRing2, .sRing4{
+    background-color: white;
+}
+.ring3, .bullseye{
+    background-color: red;
+}
+.mRing3, .mBullseye{
+    background-color: green;
+}
+.sRing3, .sBullseye{
+    background-color: blue;
+}
+.ring2, .mRing2, .sRing2{
+    width: 80%;
+    height: 80%;
+}
+.ring3, .mRing3, .sRing3{
+    width: 70%;
+    height: 70%;
+}
+.ring4, .mRing4, .sRing4{
+    width: 60%;
+    height: 60%;
+}
+.bullseye, .mBullseye, .sBullseye{
+    width: 50%;
+    height: 50%;
+}
+.mainContainer{
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    
+}
+#scoreBar{
+    height: 5%;
+    background-color: bisque;
+    color: brown;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    z-index: 2;
+}
+#galleryContainer{
+    display: inline-block;
+    height: 95%;
+    width: 80%;
+    background-color: burlywood;
+}
+.galleryCover{
+    display: inline-block;
+    height: 95%;
+    width: 10%;
+    background-color: brown;
+    z-index: 2;
+    position: relative;
+}

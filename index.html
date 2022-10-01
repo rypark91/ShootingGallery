@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shooting Gallery</title>
+    <script scr="targetOrder.js" type="module"></script>
+</head>
+<body>
+    <div id="titleScreen">
+        <div id="titleContainer">
+            <h1>Clicking Practice</h1>
+            <h5>Step right up, and test your clicking accuracy!  The closer you are 
+            to the bullseye and the smaller the target, the more points you get!
+             (Highly recommended to play full screen.)
+            </h5>
+            <button class="play">Play</button>
+            <p>Practice site created by Ryan Park &copy; 2022.</p>
+        </div>
+    </div>
+    <div class="mainContainer">
+        <h2 id="scoreBar">Score: <span id="score">0</span> Target: <span id="targetCount">0</span> out of 20</h2>
+        <div class="galleryCover"></div>
+        <div id="galleryContainer">
+            <div id="target1" class="target">
+                <div class="ring2">
+                    <div class="ring3">
+                        <div class="ring4">
+                            <div class="bullseye"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="target2" class="target">
+                <div class="ring2">
+                    <div class="ring3">
+                        <div class="ring4">
+                            <div class="bullseye"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="target3" class="target">
+                <div class="ring2">
+                    <div class="ring3">
+                        <div class="ring4">
+                            <div class="bullseye"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="target4" class="target">
+                <div class="ring2">
+                    <div class="ring3">
+                        <div class="ring4">
+                            <div class="bullseye"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="target5" class="target">
+                <div class="ring2">
+                    <div class="ring3">
+                        <div class="ring4">
+                            <div class="bullseye"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="target6" class="target">
+                <div class="ring2">
+                    <div class="ring3">
+                        <div class="ring4">
+                            <div class="bullseye"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="target7" class="target">
+                <div class="ring2">
+                    <div class="ring3">
+                        <div class="ring4">
+                            <div class="bullseye"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="target8" class="target">
+                <div class="ring2">
+                    <div class="ring3">
+                        <div class="ring4">
+                            <div class="bullseye"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="target9" class="target">
+                <div class="ring2">
+                    <div class="ring3">
+                        <div class="ring4">
+                            <div class="bullseye"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="target10" class="target">
+                <div class="ring2">
+                    <div class="ring3">
+                        <div class="ring4">
+                            <div class="bullseye"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="target11" class="mTarget">
+                <div class="mRing2">
+                    <div class="mRing3">
+                        <div class="mRing4">
+                            <div class="mBullseye"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="target12" class="mTarget">
+                <div class="mRing2">
+                    <div class="mRing3">
+                        <div class="mRing4">
+                            <div class="mBullseye"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="target13" class="mTarget">
+                <div class="mRing2">
+                    <div class="mRing3">
+                        <div class="mRing4">
+                            <div class="mBullseye"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="target14" class="mTarget">
+                <div class="mRing2">
+                    <div class="mRing3">
+                        <div class="mRing4">
+                            <div class="mBullseye"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="target15" class="mTarget">
+                <div class="mRing2">
+                    <div class="mRing3">
+                        <div class="mRing4">
+                            <div class="mBullseye"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="target16" class="mTarget">
+                <div class="mRing2">
+                    <div class="mRing3">
+                        <div class="mRing4">
+                            <div class="mBullseye"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="target17" class="mTarget">
+                <div class="mRing2">
+                    <div class="mRing3">
+                        <div class="mRing4">
+                            <div class="mBullseye"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="target18" class="sTarget">
+                <div class="sRing2">
+                    <div class="sRing3">
+                        <div class="sRing4">
+                            <div class="sBullseye"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="target19" class="sTarget">
+                <div class="sRing2">
+                    <div class="sRing3">
+                        <div class="sRing4">
+                            <div class="sBullseye"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="target20" class="sTarget">
+                <div class="sRing2">
+                    <div class="sRing3">
+                        <div class="sRing4">
+                            <div class="sBullseye"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="galleryCover"></div>
+    </div>
+    <div id="resultsScreen">
+        <p>Score: <span id="finalScore"></span> Accuracy: <span id="accuracy"></span>%</p>
+        <button class="play">Play Again</button>        
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    
+    <script src="manager.js"></script>
+</body>
+</html>
